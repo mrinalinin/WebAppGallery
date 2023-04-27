@@ -1,0 +1,51 @@
+.App {
+    background-color: rgb(212, 211, 241);
+    text-align: center;
+    padding: 0.2%;
+}    
+
+h1 {
+    color: rgb(28, 21, 36);
+}
+
+.pic {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#input {
+    padding-inline-start: 5%;
+    padding-inline-end: 5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    width: 20%;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: black;
+    border-radius: 50px;
+    border-width: 3px;
+    border-color: rgb(221, 68, 129);
+    background-color: rgb(212, 212, 248);
+}
+
+#button:hover {
+    padding: 0.1%;
+    width: 100px;
+    min-height: 20px;
+    align-items: center;
+    background-color: lightskyblue;
+    color: black;
+    border: rgb(137, 137, 244);
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+#button {
+    border-radius: 50px;
+    width: 100px;
+    min-height: 20px;
+    background-color: antiquewhite;
+}
